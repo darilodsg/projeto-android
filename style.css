@@ -45,7 +45,6 @@ header > h1{
     text-shadow: #2C5327 4px 4px 10px;
     color: white;
     margin-bottom: 20px;
-
 }
 
 header > p{
@@ -53,7 +52,9 @@ header > p{
     font-family: var(--font-2);
     color: white;
     margin: auto;
-    max-width: 550px;
+    padding: 10px;
+    min-width: 200px;
+    max-width: 500px;
 
 }
 
@@ -83,19 +84,22 @@ main{
     padding: 20px;
     min-width: 400px;
     max-width: 800px;
+    box-shadow: #2c532794 0px 0px 20px;
+    
 }
 
 main > h1{
     font-family: var(--font-1);
     font-weight: 800;
     color: var(--cor4);
+    text-shadow: #2C5327 0px 0px 2px;
 }
 
 main > h2{
     font-family: var(--font-1);
     font-weight: 800;
     color: var(--cor4);
-    background-image: linear-gradient(to right, #0ff51a34, #0ff51a15, white);
+    background-image: linear-gradient(to right, #0ff51a34, rgba(255, 255, 255, 0));
     padding: 2px;
     margin-right: 0px;
 }
@@ -115,13 +119,26 @@ img{
     display: block;
 }
 
-.video{
-    margin: auto;
-    width: 100%;
-    padding: 10px;
-    display: block;
-    background-size: 3;
+img.bugdroid{
+    width: 50%;
+}
+
+div.video{
     background-color: var(--cor5);
+    margin-bottom: 30px;
+    margin: 0px;
+    padding: 20px;
+    padding-bottom: 54%;
+    position: relative;
+}
+
+div.video >iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
 }
 
 aside{
