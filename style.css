@@ -26,16 +26,15 @@
 
 body{
     background-color: #0d74184d;
-    margin: 0px;
-    min-width: 400px;
-    max-width: 100%;
+  
+    
 }
 
 header{
     text-align: center;
     background-image: linear-gradient(to bottom, #05ff1ea6, #2c5327 85% );
-    padding-top: 40px;
     min-height: 150px;
+    padding-top: 40px;
 }
 
 header > h1{
@@ -45,16 +44,13 @@ header > h1{
     text-shadow: #2C5327 4px 4px 10px;
     color: white;
     margin-bottom: 20px;
+    
 }
 
 header > p{
     font-size: 20px;
     font-family: var(--font-2);
     color: white;
-    margin: auto;
-    padding: 10px;
-    min-width: 200px;
-    max-width: 500px;
 
 }
 
@@ -62,29 +58,31 @@ nav{
     background-color: #2C5327;
     font-family: var(--font-2);;
     font-weight: bold;
-    padding: 10px;
-    
+ 
 }
+
 nav > a{
     text-decoration: none;
+    text-align: center;
     color: white;
-    padding: 10px;
+    padding-left: 15px;
     border-radius: 5px;
     transition-duration: 0.3s;
+    
 }
 
 nav > a:hover{
     background-color: var(--cor2);
     color: var(--cor5);
+    
 }
 
 main{
     background-color: white;
-    margin: auto;
-    padding: 20px;
-    min-width: 400px;
-    max-width: 800px;
     box-shadow: #2c532794 0px 0px 20px;
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
     
 }
 
@@ -100,8 +98,6 @@ main > h2{
     font-weight: 800;
     color: var(--cor4);
     background-image: linear-gradient(to right, #0ff51a34, rgba(255, 255, 255, 0));
-    padding: 2px;
-    margin-right: 0px;
 }
 
 main > p{
@@ -109,14 +105,12 @@ main > p{
     text-indent: 2em;
     line-height: 2em;
     font-size: 18px;
-    margin: 20px 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 img{
     margin: auto;
     width: 100%;
-    display: block;
 }
 
 img.bugdroid{
@@ -144,8 +138,6 @@ div.video >iframe{
 aside{
     font-size: 18px;
     border-radius: 1em;
-    margin: 20px 10px;
-    padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #0d74184d;
 }
@@ -161,8 +153,6 @@ aside > h2{
 }
 
 aside > ul{
-    margin: 10px;
-    padding:30px;
     columns: 2;
 }
 
@@ -170,8 +160,6 @@ aside > p{
     text-align: justify;
     text-indent: 2em;
     font-size: 18px;
-    padding: 7px;
-    margin: 20px 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -179,6 +167,5 @@ footer{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    padding: 4px;
     background-color: var(--cor5);
 }
